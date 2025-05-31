@@ -1,7 +1,7 @@
 # ThreadPoolParallelSort
 
 ThreadPoolParallelSort -- by Claude Opus 4.
-Where totalCores is (probably) the number of cpu cores, allocate totalCores-1 threads to sort a vector sort a vector of random numbers.  This is a basic example of Qt multithreading.
+Where totalCores is (probably) the number of cpu cores, allocate totalCores-1 threads to sort a vector of random numbers.  This is a basic example of Qt multithreading.
 
 This program demonstrates:
 
@@ -15,11 +15,9 @@ This program demonstrates:
 - Performance Comparison: Times both parallel and single-threaded sorts to show the speedup
 
 ## How to compile and run:
-    bashqmake
-    make
-    ./threadpool_sort
+    Clone this repo and open it in QtCreator.
 
-Example output:
+## Example output:
 
     Generating 1000000 random integers...
     "Original vector (unsorted):"
